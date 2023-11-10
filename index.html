@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ivan Aguirre| Portafolio</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="unaclase otraclase">
+  <div class="progress"></div>
+
+  <div id="loader" class="loader">
+    <img src="https://cdn.dribbble.com/users/3244879/screenshots/11218781/media/373d9f6740aea54e863582d85dfe9e71.gif" alt="loader">
+  </div>
+
+  <header class="header">
+    <nav class="header__nav">
+      <a class="header__logo" href="#home">JS</a>
+
+      <div class="header__menu">
+        <button class="header__btn btn--close">
+          <i class='bx bx-x'></i>
+        </button>
+
+        <ul class="list">
+          <li class="list__item">
+            <a href="#home" class="list__link active">Home</a>
+          </li>
+          <li class="list__item">
+            <a href="#about" class="list__link">About</a>
+          </li>
+          <li class="list__item">
+            <a href="#portfolio" class="list__link">Portfolio</a>
+          </li>
+          <li class="list__item">
+            <a href="#contact" class="list__link">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <button class="header__btn btn--open">
+        <i class='bx bx-menu'></i>
+      </button>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section id="home" class="hero">
+
+      <div class="container">
+        <div class="hero__img">
+          <img src="https://scontent.fmex33-1.fna.fbcdn.net/v/t39.30808-6/306507990_2063759590494212_5275280136360088112_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=cNoj7FeCw3MAX-GSfx6&_nc_oc=AQkovr8yCapN9taxx91cw-WqZBfXZYZUggBm2jJ7UMzmiRgw62wgE40aWLYh0Hy0YBY&_nc_ht=scontent.fmex33-1.fna&oh=00_AfCnsxkVSlNagdVr4oUtJYQjUNfvQRdFWTnG48W0hBL-vA&oe=655016AE" alt="Foto Perfil">
+        </div>
+
+        <div class="hero__content">
+          <span class="hero__tag">Ingeniero en biónica | Frontend Developer</span>
+          <h1 class="hero__title">Soy Ivan Aguirre</h1>
+          <p class="hero__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit deleniti corrupti iure
+            consequatur aliquid tempore inventore, neque nobis, natus alias laboriosam nisi laudantium. Harum dolores et
+            dolor, mollitia neque cum.</p>
+
+          <button class="hero__btn" type="button">Descargar CV</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <h2 class="section__title">Sobre Mí.</h2>
+
+      <div class="container">
+        <p class="about__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit obcaecati provident ab
+          voluptates rerum dicta laborum mollitia eligendi commodi possimus nisi praesentium ipsa soluta culpa, eos,
+          officia fugit nam explicabo.</p>
+
+        <p class="about__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit obcaecati provident ab
+          voluptates rerum dicta laborum mollitia eligendi commodi possimus nisi praesentium ipsa soluta culpa, eos,
+          officia fugit nam explicabo.</p>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section portfolio">
+      <h2 class="section__title">Mis Trabajos<span class="span__dot">.</span></h2>
+
+      <div class="container">
+        <div class="portfolio__content">
+          <article class="portfolio__item">
+            <div class="portfolio__img-content">
+              <img class="portfolio__img" src="https://source.unsplash.com/1920x1080/?nature" alt="nature">
+            </div>
+            <div class="portfolio__body">
+              <h3 class="portfolio__name">Titulo</h3>
+              <p class="portfolio__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+              </p>
+              <a class="portfolio__link" href="#">Ver más</a>
+            </div>
+          </article>
+
+          <article class="portfolio__item">
+            <div class="portfolio__img-content">
+              <img class="portfolio__img" src="https://source.unsplash.com/1920x1080/?tech" alt="nature">
+            </div>
+            <div class="portfolio__body">
+              <h3 class="portfolio__name">Titulo</h3>
+              <p class="portfolio__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+              </p>
+              <a class="portfolio__link" href="#">Ver más</a>
+            </div>
+          </article>
+
+          <article class="portfolio__item">
+            <div class="portfolio__img-content">
+              <img class="portfolio__img" src="https://source.unsplash.com/1920x1080/?pets" alt="nature">
+            </div>
+            <div class="portfolio__body">
+              <h3 class="portfolio__name">Titulo</h3>
+              <p class="portfolio__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+              </p>
+              <a class="portfolio__link" href="#">Ver más</a>
+            </div>
+          </article>
+
+          <article class="portfolio__item">
+            <div class="portfolio__img-content">
+              <img class="portfolio__img" src="https://source.unsplash.com/1920x1080/?cars" alt="nature">
+            </div>
+
+            <div class="portfolio__body">
+              <h3 class="portfolio__name">Titulo</h3>
+              <p class="portfolio__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+              </p>
+              <a class="portfolio__link" href="#">Ver más</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews" class="section reviews">
+
+      <div class="reviews__header">
+        <h2 class="section__title">Testimonios<span class="span__dot">.</span></h2>
+  
+        <div class="reviews__buttons">
+          <div class="button--prev"><i class='bx bxs-left-arrow-circle'></i></div>
+          <div class="button--next"><i class='bx bxs-right-arrow-circle'></i></div>
+        </div>
+      </div>
+
+      <div class="container swiper">
+
+        <div class="reviews__content swiper-wrapper">
+
+          <!--review Item-->
+          <div class="swiper-slide">
+            <div class="reviews__item">
+              <div class="reviews__head">
+                <div class="reviews__img">
+                  <img src="https://processingraw.com/wp-content/uploads/2016/07/licuar-con-deteccion-de-rostros-3-729x1024.jpg" alt="profile">
+                </div>
+
+                <div class="reviews__info">
+                  <span class="reviews__tag">Frontend Developer</span>
+                  <h3 class="reviews__name">Juan Nava</h3>
+                </div>
+              </div>
+              <p class="reviews__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium voluptates dolorem quod molestiae,
+                consequuntur aliquid incidunt? Fugiat consectetur impedit deleniti iure commodi dolor aut, voluptas
+                voluptatibus dolorum tempore, iste autem.
+              </p>
+            </div>
+          </div>
+
+          <!--review Item-->
+          <div class="swiper-slide">
+            <div class="reviews__item">
+              <div class="reviews__head">
+                <div class="reviews__img">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJDu6u9IJxYlYII7EHFqomksj1BDyqG6oO0A&usqp=CAU" alt="profile">
+                </div>
+
+                <div class="reviews__info">
+                  <span class="reviews__tag">Frontend Developer</span>
+                  <h3 class="reviews__name">Luisa Reyes</h3>
+                </div>
+              </div>
+              <p class="reviews__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium voluptates dolorem quod molestiae,
+                consequuntur aliquid incidunt? Fugiat consectetur impedit deleniti iure commodi dolor aut, voluptas
+                voluptatibus dolorum tempore, iste autem.
+              </p>
+            </div>
+          </div>
+
+          <!--review Item-->
+          <div class="swiper-slide">
+            <div class="reviews__item">
+              <div class="reviews__head">
+                <div class="reviews__img">
+                  <img src="assets/img/camilo.jpg" alt="profile">
+                </div>
+
+                <div class="reviews__info">
+                  <span class="reviews__tag">Frontend Developer</span>
+                  <h3 class="reviews__name">Camilo Esteban</h3>
+                </div>
+              </div>
+              <p class="reviews__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium voluptates dolorem quod molestiae,
+                consequuntur aliquid incidunt? Fugiat consectetur impedit deleniti iure commodi dolor aut, voluptas
+                voluptatibus dolorum tempore, iste autem.
+              </p>
+            </div>
+          </div>
+
+          <!--review Item-->
+          <div class="swiper-slide">
+            <div class="reviews__item">
+              <div class="reviews__head">
+                <div class="reviews__img">
+                  <img src="https://images.unsplash.com/photo-1582233479366-6d38bc390a08?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm9zdHJvc3xlbnwwfHwwfHx8MA%3D%3D" alt="profile">
+                </div>
+
+                <div class="reviews__info">
+                  <span class="reviews__tag">Frontend Developer</span>
+                  <h3 class="reviews__name">Pedro Sanchez</h3>
+                </div>
+              </div>
+              <p class="reviews__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium voluptates dolorem quod molestiae,
+                consequuntur aliquid incidunt? Fugiat consectetur impedit deleniti iure commodi dolor aut, voluptas
+                voluptatibus dolorum tempore, iste autem.
+              </p>
+            </div>
+          </div>
+
+          <!--review Item-->
+          <div class="swiper-slide">
+            <div class="reviews__item">
+              <div class="reviews__head">
+                <div class="reviews__img">
+                  <img src="https://i.pinimg.com/originals/90/11/9f/90119f647eee410dc0bad023b4af02d3.jpg" alt="profile">
+                </div>
+
+                <div class="reviews__info">
+                  <span class="reviews__tag">Frontend Developer</span>
+                  <h3 class="reviews__name">Sandra Lechuga</h3>
+                </div>
+              </div>
+              <p class="reviews__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium voluptates dolorem quod molestiae,
+                consequuntur aliquid incidunt? Fugiat consectetur impedit deleniti iure commodi dolor aut, voluptas
+                voluptatibus dolorum tempore, iste autem.
+              </p>
+            </div>
+          </div>
+
+          <!--review Item-->
+          <div class="swiper-slide">
+            <div class="reviews__item">
+              <div class="reviews__head">
+                <div class="reviews__img">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqfnW3srXD8DaICCrH_WJal5kwi_PBZdjQ45JTBqIUOL1-H6vAzQc-vAAiNj1CrkK8UQM&usqp=CAU" alt="profile">
+                </div>
+
+                <div class="reviews__info">
+                  <span class="reviews__tag">Frontend Developer</span>
+                  <h3 class="reviews__name">Jose Rodriguez</h3>
+                </div>
+              </div>
+              <p class="reviews__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium voluptates dolorem quod molestiae,
+                consequuntur aliquid incidunt? Fugiat consectetur impedit deleniti iure commodi dolor aut, voluptas
+                voluptatibus dolorum tempore, iste autem.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2 class="section__title">Contacto<span class="span__dot">.</span></h2>
+
+      <div class="container">
+        <form id="form" class="contact__form">
+          <div class="label__input">
+            <label for="name"><i class='bx bxs-user'></i></label>
+            <input type="text" id="name" placeholder="Nombre" name="name">
+          </div>
+
+          <div class="label__input">
+            <label for="email"><i class='bx bx-at'></i></label>
+            <input type="email" id="email" placeholder="Correo" name="email">
+          </div>
+
+          <div>
+            <label for="message">Mensaje</label> <br>
+            <textarea name="message" id="message" rows="10"></textarea>
+          </div>
+
+          <button class="contact__btn" type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__copy">&copy; 2023</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  <script src="assets/js/index.js"></script>
+</body>
+
+</html>
