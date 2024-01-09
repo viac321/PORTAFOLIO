@@ -363,6 +363,10 @@ main {
   text-transform: uppercase;
 }
 
+span{margin:0 5px 0 15px}
+
+
+
 /* Footer */
 .footer {
   background-color: var(--text);
